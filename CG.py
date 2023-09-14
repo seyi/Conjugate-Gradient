@@ -139,6 +139,7 @@ def plotAb2D(A, b, fig=None, fs=14):
     plt.text(3, -2, r'$%.fx_1 + %.1fx_2 = %.1f$'%(A[1,0], A[1,1],b[1,0]), fontsize = fs, color = 'b')
 
     plt.axis([-4,6,-6,4])
+    plt.show()
 
 
 def plotAbc3D(A, b, c, ax=None, alpha=1):
